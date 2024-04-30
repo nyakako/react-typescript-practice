@@ -1,3 +1,6 @@
+React に入門した人のためのもっと React が楽しくなるステップアップコース完全版
+セクション 10 React×TypeScript(実践編)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -15,14 +18,14 @@ If you are developing a production application, we recommend updating the config
 
 ```js
 export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+	// other rules...
+	parserOptions: {
+		ecmaVersion: "latest",
+		sourceType: "module",
+		project: ["./tsconfig.json", "./tsconfig.node.json"],
+		tsconfigRootDir: __dirname,
+	},
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
